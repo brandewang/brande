@@ -1,0 +1,30 @@
+[user]
+    email = brande.wang@gihtg.com
+    name = 王于晟
+[push]
+    default = matching
+[alias]
+    br = branch
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr %ci) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    co = checkout
+    st = status
+[color]
+        branch = auto
+        diff = auto
+        interactive = auto
+        pager = true
+        status = auto
+        ui = auto
+[color "branch"]
+        current = yellow reverse
+        local = yellow
+        remote = green
+[color "diff"]
+        frag = magenta bold
+        meta = yellow bold
+        new = green bold
+        old = red bold
+[color "status"]
+        added = yellow
+        changed = green
+        untracked = cyan
