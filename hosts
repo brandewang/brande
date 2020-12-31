@@ -29,6 +29,8 @@
 [DC]
 10.55.5.1
 10.55.5.2
+[WSUS]
+10.55.5.6
 
 [sc4020mgt]
 10.55.2.26
@@ -49,8 +51,9 @@
 [pur-new]
 192.168.16.12
 
-[GHotelTraining]
-10.55.2.201
+[esserver]
+10.55.25.21
+
 #---------------------
 [ntp]
 10.55.2.60
@@ -75,7 +78,30 @@
 10.55.5.31
 [zabbix-web]
 10.55.5.32
-#--------------------
+
+[gihtg-nfs01]
+10.55.5.11
+
+[gihtg-ipam]
+10.55.5.15
+
+[gihtg-openvpn01]
+10.55.4.8
+
+[gihtg-nas01]
+10.55.5.12
+
+[jms]
+10.55.4.13
+10.55.4.14
+10.55.4.15
+
+[gihtg-harbor]
+10.55.5.23
+
+[gihtg-spring-config]
+10.55.5.25
+#-------test app-------------
 [bi-test]
 10.55.2.210
 [ca-test]
@@ -84,3 +110,22 @@
 10.55.2.62
 [centos-template]
 10.55.5.110
+[gihtg-tb-test01]
+10.55.3.2
+[gihtg-report-test]
+10.55.3.8
+[brande-app01]
+10.55.3.41
+[brande-app02]
+10.55.3.42
+[brande-logstash01]
+10.55.3.43
+#-------test db--------------
+[GHotelTraining]
+10.55.2.201
+[gihtg-tb-mysql-test01]
+10.55.3.5
+[gconnectrmmysql]
+10.55.3.12
+[gihtg-mall-test]
+10.55.3.4

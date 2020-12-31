@@ -4,18 +4,18 @@
 __author__ = 'wangys2'
 import os, re, sys
 
-os.chdir('/home/www/brande/')
-url = "http://127.0.0.1/ansible/"
-name = "hosts"
-get_cmd = "wget -q -T 2 -t 1 %s%s  -O %s" % (url, name, name)
+#os.chdir('/home/www/brande/')
+#url = "http://127.0.0.1/ansible/"
+#name = "hosts"
+#get_cmd = "wget -q -T 2 -t 1 %s%s  -O %s" % (url, name, name)
+#
+#exit_status = os.system(get_cmd)
+#
+#if exit_status != 0:
+#    print("can not download the hosts file")
+#    sys.exit()
 
-exit_status = os.system(get_cmd)
-
-if exit_status != 0:
-    print("can not download the hosts file")
-    sys.exit()
-
-hosts_files = name
+hosts_files = '/home/www/ansible/inventory'
 
 def get_hosts_info(hosts_files):
     hosts_info = {}
